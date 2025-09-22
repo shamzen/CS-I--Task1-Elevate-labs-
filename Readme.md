@@ -1,4 +1,4 @@
-# CS-I--Task1-Elevate-labs-
+# CS-I--Task1-Elevate-labs
 Cyber Security Internship Task 1 - scan Your Local Network for Open Ports
 
 ## Tools Used
@@ -19,7 +19,7 @@ Cyber Security Internship Task 1 - scan Your Local Network for Open Ports
     nmap -sS <my ip>
 
 - Scan Output:
-```bash
+  ```bash
 Starting Nmap 7.97 ( https://nmap.org ) at 2025-09-22 18:49 +0530
 Nmap scan report for 172.18.128.1
 Host is up (0.000014s latency).
@@ -34,21 +34,20 @@ Nmap done: 1 IP address (1 host up) scanned in 0.90 seconds
 
 ## Analysis
     ```bash 
-     Host: 172.18.128.1
+   Host: 172.18.128.1
+    Open Ports Found:
+   135/tcp → Microsoft RPC
+    139/tcp → NetBIOS Session Service
+    445/tcp → Microsoft SMB
 
-Open Ports Found:
-135/tcp → Microsoft RPC
-139/tcp → NetBIOS Session Service
-445/tcp → Microsoft SMB
 
-Risks:
+## Risks:
     ```bash 
     SMB ports (139/445)
 
-### screenshoot
 
 
-##Interview Questions
+## Interview Questions
 
 What is an open port?
 -An open port is a network port that is active and waiting for incoming connections.
@@ -74,12 +73,14 @@ What is a port scan and why do attackers perform it?
 How does Wireshark complement port scanning?
 - Wireshark shows the actual packets (SYN, ACK, RST),   helping verify and analyze scans.
 
+### screenshoot
 
 ## wireshark 
 screenshot: "C:\Users\HP\OneDrive\Desktop\task-1\screenshots\Screenshot 2025-09-22 202341.png"
 
 ## Nmap
 screenshot: "C:\Users\HP\OneDrive\Desktop\task-1\screenshots\Screenshot 2025-09-22 190203.png"
+
 
 
 By:- shivam raj
